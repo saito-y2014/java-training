@@ -1,8 +1,8 @@
-package Chap4;
+package Chap04;
 
 import java.util.Scanner;
 
-public class PutAsterink5A {
+public class PutAsteriskFor {
 	public static void main(String[] args){
 		Scanner stdIn = new Scanner(System.in);
 		
@@ -10,13 +10,9 @@ public class PutAsterink5A {
 		int n = stdIn.nextInt();
 		
 		if(n > 0){
-			for(int i = 0; i < n; i++){
+			for(int i = 0; i < n; i++)
 				System.out.print('*');
-				if(i % 5 == 4)
-					System.out.println();
-			}
-			if(n % 5 != 0)
-				System.out.println();
+			System.out.println();
 		}
 	}
 

@@ -1,23 +1,20 @@
-package Chap4;
+package Chap04;
 
 import java.util.Scanner;
 
-public class PutAsterisk2 {
+public class Square {
 	public static void main(String[] args){
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.print("何個*を表示しますか：");
+		System.out.println("正方形を表示します。");
+		System.out.print("段数は : ");
 		int n = stdIn.nextInt();
 		
-		if (n > 0){
-			int i = 1;
-			while (i <= n){
+		for(int i = 1; i <= n; i++){
+			for(int j = 1; j <= n; j++)
 				System.out.print('*');
-				i++;
-			}
 			System.out.println();
 		}
-		
 	}
 
 }
