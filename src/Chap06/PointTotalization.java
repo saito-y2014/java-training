@@ -15,7 +15,7 @@ public class PointTotalization {
 		for(int i = 0; i < NINZU; i++){
 			System.out.printf("%2d番・・・国語 :", i + 1);
 			point[i][0] = stdIn.nextInt();
-			System.out.print("　　　　　　数学 :");
+			System.out.print("　　　　     数学 :");
 			point[i][1] = stdIn.nextInt();
 			
 			sumStudent[i] = point[i][0] + point[i][1];
