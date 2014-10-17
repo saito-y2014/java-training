@@ -1,0 +1,13 @@
+package Chap10;
+
+public class IntegerLimits {
+	public static void main(String[] args){
+		System.out.println("êÆóùå^ÇÃï\åªîÕàÕ");
+		
+		System.out.println("byte å^ : " + Byte.MIN_VALUE + "Å`" + Byte.MAX_VALUE);
+		System.out.println("shortå^ : " + Short.MIN_VALUE + "Å`" + Short.MAX_VALUE);
+		System.out.println("int  å^ : " + Integer.MIN_VALUE + "Å`" + Integer.MAX_VALUE);
+		System.out.println("long å^ : " + Long.MIN_VALUE + "Å`" + Long.MAX_VALUE);
+	}
+
+}

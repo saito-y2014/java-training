@@ -5,12 +5,12 @@ public class IdTester {
 		Id a = new Id();
 		Id b = new Id();
 		
-		System.out.println("a‚Ì¯•Ê”Ô†  : " + a.getId());
-		System.out.println("b‚Ì¯•Ê”Ô†  : " + b.getId());
+		System.out.println("a‚Ì¯•Ê”Ô† : " + a.getId());
+		System.out.println("b‚Ì¯•Ê”Ô† : " + b.getId());
 		
-		System.out.println("Id.conuter = " + Id.counter);
-		System.out.println("a.counter  = " +  a.counter);
-		System.out.println("b.counter  = " +  b.counter);
+		System.out.println("ÅŒã‚É—^‚¦‚½¯•Ê”Ô† = " + Id.getMaxId());
+		System.out.println("ÅŒã‚É—^‚¦‚½¯•Ê”Ô† = " +  a.getMaxId());
+		System.out.println("ÅŒã‚É—^‚¦‚½¯•Ê”Ô† = " +  b.getMaxId());
 	}
 
 }
